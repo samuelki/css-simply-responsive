@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1, p, footer{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(223, 167, 62);
+}
+h1{
+    background-color: rgb(165, 165, 165);
+}
+p{
+    background-color: rgb(195, 195, 195);
+}
+footer{
+    background-color: rgb(253, 255, 117);
+}
+span{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px){
+    #med, #lg{
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px){
+    #sm, #lg{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+    #sm, #med{
+        display: none;
+    }
+    #lg{
+        display: block;
+    }
+}
